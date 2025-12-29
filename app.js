@@ -70,7 +70,6 @@ DOCS-ONLY (HARD RULE):
 
 STYLE:
 - Keep it short by default.
-- End with: "Not financial advice."
 
 FORMAT:
 1) Short answer
@@ -375,4 +374,5 @@ keyStatusEl.textContent = "key: server";
 
 addMsg("bot", "Hi sweety 💜 I’m ready! Ask me anything about RE docs.");
 loadDocsAuto();
+
 
