@@ -24,7 +24,7 @@ let lastUserLang = null;
 
 
 const CFG = {
-  MODEL: "openai/gpt-4",
+  MODEL: "openai/gpt-4o-mini",
   TOP_K: 6,
   DOCS_JSON_PATH: "./re_chunks.json",
   MAX_TOKENS: 900
@@ -375,3 +375,4 @@ keyStatusEl.textContent = "key: server";
 
 addMsg("bot", "Hi sweety 💜 I’m ready! Ask me anything about RE docs.");
 loadDocsAuto();
+
