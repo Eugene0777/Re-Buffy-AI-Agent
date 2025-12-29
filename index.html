@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Re Buffy</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://unpkg.com/minisearch@7.1.0/dist/umd/index.min.js"></script>
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <img class="logo" src="./media/logo.webp" alt="Logo" />
+      <div>
+        <div class="title">Re Buffy AI Agent</div>
+
+      </div>
+    </div>
+
+    <div class="status">
+      <span class="pill" id="keyStatus">key: …</span>
+      <span class="pill" id="docsStatus">docs: …</span>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="layout">
+
+      <section class="card">
+        <div id="chat" class="chat"></div>
+
+        <div class="composer">
+          <textarea id="prompt" rows="2" placeholder="Ask me"></textarea>
+          <button id="send" class="btn primary">Send</button>
+        </div>
+
+        <div class="footerRow">
+          <div class="hint" id="hint"></div>
+          <button id="clear" class="btn ghost">Clear</button>
+        </div>
+      </section>
+
+
+      <aside class="mascot">
+        <div class="mascotCard">
+          <video
+            id="mascotVideo"
+            class="mascotVideo"
+            autoplay
+            muted
+            loop
+            playsinline
+            preload="auto"
+          >
+            <source id="mascotSource" src="./media/1.MP4" type="video/mp4" />
+          </video>
+
+          <div class="mascotBadge" id="mascotState">idle</div>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <script src="config.local.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
