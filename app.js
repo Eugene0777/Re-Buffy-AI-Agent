@@ -96,7 +96,6 @@ DOCS-ONLY (ЖЁСТКО):
 
 СТИЛЬ:
 - По умолчанию отвечай кратко.
-- В конце: "Не финансовый совет."
 
 ФОРМАТ:
 1) Короткий ответ
@@ -374,5 +373,6 @@ keyStatusEl.textContent = "key: server";
 
 addMsg("bot", "Hi sweety 💜 I’m ready! Ask me anything about RE docs.");
 loadDocsAuto();
+
 
 
